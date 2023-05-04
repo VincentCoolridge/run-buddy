@@ -27,14 +27,27 @@ header a {
 header nav {
     float: right;
     margin: 7px 0;
+    position: relative;
 }
-header nav ul li {
-    display: inline;
+.nav-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
 }
-header nav ul li a {
-    margin: 0 30px;
+.nav-items {
+    justify-items: baseline;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px 30px;
+}
+.nav-item {
     font-weight: lighter;
     font-size: 22px;
+    white-space: nowrap;
 }
 footer {
     background: #fce138;

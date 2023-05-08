@@ -27,7 +27,14 @@ header a {
     color: #fce138;
 }
 header nav {    
-    margin: 7px 0;
+    margin: 7px 0;    
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 header nav ul li {
     display: inline;
